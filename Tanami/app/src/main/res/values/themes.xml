@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tanami" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorSecondaryContainer">@color/white_smoke</item>
+
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">?android:attr/windowBackground</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.App.BottomSheetDialog</item>
+    </style>
+
+    <style name="Theme.Tanami" parent="Base.Theme.Tanami">
+    </style>
+
+    <style name="AuthStyle" parent="Base.Theme.Tanami">
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="StatusBarWindow" parent="Base.Theme.Tanami">
+        <item name="android:statusBarColor">?android:attr/windowBackground</item>
+    </style>
+
+    <style name="BottomNavigationViewTextStyle">
+        <item name="android:fontFamily">@font/gabarito_reguler</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="SplashScreenStyle" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:windowBackground">@color/green</item>
+        <item name="android:statusBarColor">@color/green</item>
+        <item name="android:navigationBarColor">@color/green</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+    </style>
+
+    <style name="fab_rounded">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="image_rounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/ModalBottomSheet</item>
+    </style>
+
+    <style name="ModalBottomSheet" parent="Widget.Material3.BottomSheet.Modal">
+        <item name="backgroundTint">@color/white</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.ExtraLarge</item>
+    </style>
+
+    <style name="TextInputLayoutRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ToolbarTextStyle">
+        <item name="android:fontFamily">@font/gabarito_reguler</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

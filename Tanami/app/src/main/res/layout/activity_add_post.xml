@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.main.community.addpost.AddPostActivity">
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/buttonContainer">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- AppBar with Toolbar -->
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:liftOnScroll="true">
+
+                <com.google.android.material.appbar.MaterialToolbar
+                    android:id="@+id/toolbar"
+                    app:titleTextAppearance="@style/ToolbarTextStyle"
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:navigationIcon="?attr/homeAsUpIndicator"
+                    app:navigationIconTint="@color/black"
+                    app:title="@string/add_post"
+                    app:titleTextColor="@color/black" />
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <!-- ImageView for Post Preview -->
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/previewImage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_margin="16dp"
+                android:scaleType="center"
+                android:src="@drawable/baseline_insert_photo_24"
+                android:contentDescription="preview"
+                android:padding="2dp"
+                app:shapeAppearance="@style/image_rounded"
+                app:strokeColor="?attr/colorOutline"
+                app:strokeWidth="1dp" />
+
+            <!-- Button Group for Camera and Gallery -->
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:id="@+id/buttonGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:padding="1dp"
+                app:singleSelection="true"
+                android:layout_marginBottom="16dp">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/cameraButton"
+                    android:textColorHighlight="@color/black"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:layout_width="0dp"
+                    android:fontFamily="@font/gabarito_reguler"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/camera" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/galleryButton"
+                    style="?attr/materialButtonOutlinedStyle"
+                    android:fontFamily="@font/gabarito_reguler"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/gallery" />
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+
+<!--            &lt;!&ndash; Text Input for Description &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/tvDescription"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="start"-->
+<!--                android:layout_marginBottom="8dp"-->
+<!--                android:layout_marginStart="16dp"-->
+<!--                android:layout_marginEnd="16dp"-->
+<!--                android:text="Description" />-->
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textCaptionLayout"
+                android:layout_width="match_parent"
+                app:shapeAppearanceOverlay="@style/image_rounded"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:padding="1dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                app:hintEnabled="false">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextCaption"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textMultiLine"
+                    android:minHeight="125dp"
+                    android:gravity="top|start"
+                    android:fontFamily="@font/gabarito_reguler"
+                    android:hint="@string/what_is_on_your_mind"
+                    tools:ignore="TextContrastCheck,VisualLintTextFieldSize" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Button at Bottom -->
+    <FrameLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/postButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gabarito_semibold"
+            android:text="@string/post" />
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:indicatorSize="24dp"
+            android:indeterminate="true"
+            android:layout_gravity="center"
+            tools:visibility="visible"
+            android:visibility="gone" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

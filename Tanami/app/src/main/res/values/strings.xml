@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Tanami</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? <b>Sign up</b></string>
+    <string name="have_an_account_login">Have an account? <b>Login</b></string>
+    <string name="login_to_your_account">Login to Your Account</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="or_login_with">or login with</string>
+    <string name="login_with_google">Login with Google</string>
+    <string name="image_logo">Image logo</string>
+    <string name="create_your_account">Create Your Account</string>
+    <string name="first_name">First Name</string>
+    <string name="john">John</string>
+    <string name="last_name">Last Name</string>
+    <string name="doe">Doe</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="or_sign_up_with">or Sign Up with</string>
+    <string name="sign_up_with_google">Sign Up with Google</string>
+    <string name="slogan">Your Planting Partner, Anytime, Anywhere</string>
+    <string name="logout">Logout</string>
+    <string name="feels_like">feels like %s</string>
+    <string name="error_empty_email">Email cannot be empty</string>
+    <string name="validationEmail">Invalid email format</string>
+    <string name="error_empty_password">Password cannot be empty</string>
+    <string name="error_short_password">Password must be at least 8 characters</string>
+    <string name="error_empty_name">Name cannot be empty</string>
+    <string name="name">Name</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="save">Save</string>
+    <string name="preview">Preview</string>
+    <string name="photo_profile">Photo Profile</string>
+    <string name="nitrogen_n">Nitrogen (N)</string>
+    <string name="enter_nitrogen_value">Enter nitrogen value</string>
+    <string name="phosphorus_p">Phosphorus (P)</string>
+    <string name="enter_phosphorus_value">Enter phosphorus value</string>
+    <string name="potassium_k">Potassium (K)</string>
+    <string name="enter_potassium_value">Enter potassium value</string>
+    <string name="temperature_c">Temperature (°C)</string>
+    <string name="enter_temperature_value">Enter temperature value</string>
+    <string name="humidity">Humidity (%)</string>
+    <string name="enter_humidity_value">Enter humidity value</string>
+    <string name="ph">pH</string>
+    <string name="enter_ph_value">Enter pH value</string>
+    <string name="rainfall_mm">Rainfall (mm)</string>
+    <string name="enter_rainfall_value">Enter rainfall value</string>
+    <string name="predict">Predict</string>
+    <string name="select_language">Select Language</string>
+    <string name="english_en">English (EN)</string>
+    <string name="indonesian_id">Indonesian (ID)</string>
+    <string name="are_you_sure_you_want_to_log_out">Are you sure you want to log out?</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_input_method">Choose Input Method</string>
+    <string name="capture_from_camera">Capture from Camera</string>
+    <string name="select_from_gallery">Select from Gallery</string>
+    <string name="enter_data_manually">Enter Data Manually</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="username">Username</string>
+    <string name="enter_your_username">Enter your username</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="post">Post</string>
+    <string name="add_post">Add Post</string>
+    <string name="edit_name">Edit Name</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit_photo">Edit Photo</string>
+    <string name="caption_cannot_be_empty">Caption cannot be empty</string>
+    <string name="no_image_selected">No image selected</string>
+    <string name="enter_your_username_email">Enter your username/email</string>
+    <string name="username_email_cannot_be_empty">Username/Email cannot be empty</string>
+    <string name="invalid_username_email">Invalid username or email</string>
+    <string name="error_empty_username">Username cannot be empty</string>
+    <string name="invalid_username">Invalid username</string>
+    <string name="predict_result">Predict Result</string>
+    <string name="error_empty_nitrogen">Nitrogen value cannot be empty.</string>
+    <string name="error_invalid_nitrogen">Invalid nitrogen value. It must be a positive number.</string>
+
+    <string name="error_empty_phosphorus">Phosphorus value cannot be empty.</string>
+    <string name="error_invalid_phosphorus">Invalid phosphorus value. It must be a positive number.</string>
+
+    <string name="error_empty_potassium">Potassium value cannot be empty.</string>
+    <string name="error_invalid_potassium">Invalid potassium value. It must be a positive number.</string>
+
+    <string name="error_empty_temperature">Temperature value cannot be empty.</string>
+    <string name="error_invalid_temperature">Invalid temperature value. It must be between -50 and 50 degrees Celsius.</string>
+
+    <string name="error_empty_humidity">Humidity value cannot be empty.</string>
+    <string name="error_invalid_humidity">Invalid humidity value. It must be between 0 and 100 percent.</string>
+
+    <string name="error_empty_ph">pH value cannot be empty.</string>
+    <string name="error_invalid_ph">Invalid pH value. It must be between 0 and 14.</string>
+
+    <string name="error_empty_rainfall">Rainfall value cannot be empty.</string>
+    <string name="error_invalid_rainfall">Invalid rainfall value. It must be a positive number.</string>
+    <string name="what_is_on_your_mind">What is on your mind?</string>
+    <string name="description">Description</string>
+    <string name="care_instructions">Care Instructions</string>
+    <string name="shopping_list">Shopping List</string>
+    <string name="recommended_soil">Recommended Soil</string>
+    <string name="cultivation_duration">Cultivation Duration</string>
+    <string name="add_tips">Additional Tips</string>
+    <string name="predict_image">Image Predict</string>
+    <string name="predict_manual">Manual Predict</string>
+
+    <string name="gps_enable">GPS must be enabled to use this app!</string>
+    <string name="failed_location">Failed to get location</string>
+    <string name="failed_get_location">Failed to get last location. Trying for a fresh one</string>
+    <string name="permission_granted">Permission granted</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="gps_enable_feture">GPS must be enabled to use this feature!</string>
+    <string name="please_grant_location_permission">Please grant the location permission to use this feature</string>
+    <string name="last_generated">Last Generated</string>
+    <string name="articles">Articles</string>
+    <string name="no_history">No History</string>
+
+
+</resources>
