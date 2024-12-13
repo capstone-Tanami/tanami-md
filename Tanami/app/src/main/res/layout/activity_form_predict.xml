@@ -41,7 +41,6 @@
 
             <!-- Nitrogen -->
             <TextView
-                android:id="@+id/tvNitrogen"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -73,7 +72,6 @@
 
             <!-- Phosphorus -->
             <TextView
-                android:id="@+id/tvPhosphorus"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -105,7 +103,6 @@
 
             <!-- Potassium -->
             <TextView
-                android:id="@+id/tvPotassium"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -169,7 +166,6 @@
 
             <!-- Humidity -->
             <TextView
-                android:id="@+id/tvHumidity"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -201,7 +197,6 @@
 
             <!-- pH -->
             <TextView
-                android:id="@+id/tvPH"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -233,7 +228,6 @@
 
             <!-- Rainfall -->
             <TextView
-                android:id="@+id/tvRainfall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"

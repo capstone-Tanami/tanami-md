@@ -15,7 +15,6 @@
 
         <!-- Profile Section -->
         <TextView
-            android:id="@+id/tvProfileTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/profile"
@@ -91,7 +90,6 @@
                 </LinearLayout>
 
                 <ImageView
-                    android:id="@+id/ivEditProfile"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@drawable/baseline_edit_24"
@@ -101,7 +99,6 @@
 
         <!-- Settings Section -->
         <TextView
-            android:id="@+id/tvSettingsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/settings"
@@ -134,7 +131,6 @@
                 android:padding="16dp">
 
                 <ImageView
-                    android:id="@+id/ivLanguageIcon"
                     android:layout_width="32dp"
                     android:layout_height="wrap_content"
                     android:src="@drawable/baseline_language_24"
@@ -142,7 +138,6 @@
                     android:layout_marginEnd="16dp" />
 
                 <TextView
-                    android:id="@+id/tvLanguage"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -151,7 +146,6 @@
                     android:textSize="18sp" />
 
                 <ImageView
-                    android:id="@+id/ivLanguageArrow"
                     android:layout_width="20dp"
                     android:layout_height="wrap_content"
                     android:src="@drawable/baseline_arrow_forward"
@@ -181,7 +175,6 @@
                 android:padding="16dp">
 
                 <ImageView
-                    android:id="@+id/ivLogoutIcon"
                     android:layout_width="32dp"
                     android:layout_height="wrap_content"
                     android:src="@drawable/baseline_logout_24"
@@ -189,7 +182,6 @@
                     android:layout_marginEnd="16dp" />
 
                 <TextView
-                    android:id="@+id/tvLogout"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -198,7 +190,6 @@
                     android:textSize="18sp" />
 
                 <ImageView
-                    android:id="@+id/ivLogoutArrow"
                     android:clickable="true"
                     android:focusable="true"
                     android:background="?attr/selectableItemBackground"

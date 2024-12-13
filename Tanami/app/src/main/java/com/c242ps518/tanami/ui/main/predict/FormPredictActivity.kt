@@ -4,27 +4,19 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.content.pm.ActivityInfo
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.ViewModelProvider
 import com.c242ps518.tanami.R
 import com.c242ps518.tanami.databinding.ActivityFormPredictBinding
-import com.c242ps518.tanami.helpers.CropRecommendationHelper
-import com.c242ps518.tanami.ui.factory.CommunityViewModelFactory
 import com.c242ps518.tanami.ui.factory.PredictViewModelFactory
-import com.c242ps518.tanami.ui.main.community.addpost.AddPostViewModel
 import com.c242ps518.tanami.utils.LanguageUtil.setAppLocale
 import com.google.gson.Gson
 
 class FormPredictActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityFormPredictBinding
-    private lateinit var cropRecommendationHelper: CropRecommendationHelper
     private lateinit var predictViewModel: PredictViewModel
 
     @SuppressLint("SourceLockedOrientationActivity")
@@ -112,30 +104,6 @@ class FormPredictActivity : AppCompatActivity() {
         predictViewModel.errorMessage.observe(this) { errorMessage ->
             Toast.makeText(this, errorMessage, Toast.LENGTH_SHORT).show()
         }
-
-//        cropRecommendationHelper = CropRecommendationHelper(
-//            context = this,
-//            recommendationListener = object : CropRecommendationHelper.RecommendationListener {
-//                override fun onSuccess(result: String, inferenceTime: Long) {
-//                    Log.d("CropRecommendationHelper", "Result: $result, Inference Time: $inferenceTime ms")
-//                }
-//                override fun onError(error: String) {
-//                    Log.e("CropRecommendationHelper", error)
-//                }
-//            }
-//        )
-//
-//        val inputData = floatArrayOf(
-//            90f,   // Nitrogen (N)
-//            42f,   // Phosphorus (P)
-//            43f,   // Potassium (K)
-//            20.879744f, // Temperature (°C)
-//            82.00275f,  // Humidity (%)
-//            6.502985f,  // pH
-//            202.935536f // Rainfall (mm)
-//        )
-//
-//        cropRecommendationHelper.predictCrop(inputData)
     }
 
     private fun validateInputs(

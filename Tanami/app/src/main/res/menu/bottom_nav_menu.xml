@@ -3,26 +3,25 @@
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/home_selector"
-        android:title="Home" />
+        android:title="@string/home" />
 
     <item
         android:id="@+id/navigation_community"
         android:icon="@drawable/cmmn_selector"
-        android:title="Community" />
+        android:title="@string/community" />
 
     <item
-        android:id="@+id/navigation_none"
         android:enabled="false"
         android:title="" />
 
     <item
         android:id="@+id/navigation_history"
         android:icon="@drawable/saved_selector"
-        android:title="History" />
+        android:title="@string/history" />
 
     <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/profile_selector"
-        android:title="Profile" />
+        android:title="@string/profile" />
 
 </menu>

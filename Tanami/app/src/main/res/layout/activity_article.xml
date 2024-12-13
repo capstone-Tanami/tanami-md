@@ -37,7 +37,7 @@
             android:orientation="vertical">
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/image_article"
+                android:id="@+id/imageArticle"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 app:shapeAppearance="@style/image_rounded"

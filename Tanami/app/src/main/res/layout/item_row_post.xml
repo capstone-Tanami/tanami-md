@@ -86,7 +86,6 @@
 
         <!-- Text Group -->
         <LinearLayout
-            android:id="@+id/text_group"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"

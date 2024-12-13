@@ -119,5 +119,10 @@
     <string name="last_generated">Terakhir Dibuat</string>
     <string name="articles">Artikel</string>
     <string name="no_history">Tidak ada riwayat</string>
+    <string name="welcome_to_tanami">Selamat Datang di Tanami</string>
+    <string name="username_email">Username/Email</string>
+    <string name="home">Beranda</string>
+    <string name="community">Komunitas</string>
+    <string name="history">Riwayat</string>
 
 </resources>

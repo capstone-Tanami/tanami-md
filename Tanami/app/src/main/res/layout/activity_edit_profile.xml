@@ -98,7 +98,6 @@
 
                 <!-- Arrow Icon, moved to the end -->
                 <ImageView
-                    android:id="@+id/ivEditName"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:layout_gravity="end"
@@ -145,7 +144,6 @@
 
                 <!-- Arrow Icon, moved to the end -->
                 <ImageView
-                    android:id="@+id/ivEditPhoto"
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:layout_gravity="end"

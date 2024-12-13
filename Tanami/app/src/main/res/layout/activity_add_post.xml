@@ -9,7 +9,6 @@
 
     <!-- Scrollable Content -->
     <ScrollView
-        android:id="@+id/scrollView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:fillViewport="true"
@@ -55,7 +54,6 @@
 
             <!-- Button Group for Camera and Gallery -->
             <com.google.android.material.button.MaterialButtonToggleGroup
-                android:id="@+id/buttonGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"

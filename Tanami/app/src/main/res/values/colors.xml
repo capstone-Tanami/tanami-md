@@ -3,15 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="green">#3E8E41</color>
-    <color name="light_green">#A2D39C</color>
-    <color name="brown">#7A5230</color>
     <color name="white_smoke">#F5F3EE</color>
-    <color name="black_smoke">#1D1D18</color>
-    <color name="light_blue_600">#FF039BE5</color>
-    <color name="light_blue_900">#FF01579B</color>
-    <color name="light_blue_A200">#FF40C4FF</color>
-    <color name="light_blue_A400">#FF00B0FF</color>
-    <color name="black_overlay">#66000000</color>
-    <color name="shimmer_placeholder_color">#DDDDDDDD</color>
     <color name="gray">#FF888888</color>
 </resources>

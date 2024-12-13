@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/splash"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -11,14 +10,12 @@
     tools:ignore="UseCompoundDrawables">
 
     <ImageView
-        android:id="@+id/logo"
         android:layout_width="130dp"
         android:layout_height="130dp"
         android:contentDescription="@string/image_logo"
         android:src="@mipmap/ic_launcher"/>
 
     <TextView
-        android:id="@+id/app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
@@ -29,7 +26,6 @@
         android:textColor="@color/white"/>
 
     <TextView
-        android:id="@+id/slogan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
