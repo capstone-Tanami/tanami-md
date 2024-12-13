@@ -30,6 +30,6 @@ An intuitive Android client application that provides plant recommendations base
 - **SharedPreferences**: Lightweight local storage for user preferences and small data.
 
 ## Download the App
-[Download Tanami](https://github.com/capstone-Tanami/tanami-md/blob/main/tanami.apk)
+[Download Tanami](https://github.com/capstone-Tanami/tanami-md/raw/refs/heads/main/tanami.apk)
 
 Experience smarter planting solutions today!
