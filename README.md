@@ -32,4 +32,34 @@ An intuitive Android client application that provides plant recommendations base
 ## Download the App
 [Download Tanami](https://github.com/capstone-Tanami/tanami-md/raw/refs/heads/main/tanami.apk)
 
-Experience smarter planting solutions today!
+Your Planting Partner, Anywhere, Anytime.
+
+## Screenshot
+
+|Splash Screen|Login|Register|
+|--|--|--|
+|<img src="img/splash.jpeg" width="180" height="380">|<img src="img/login.jpeg" width="180" height="380">|<img src="img/register.jpeg" width="180" height="380">|
+
+|Home|Article|Generate|
+|--|--|--|
+|<img src="img/home.jpeg" width="180" height="380">|<img src="img/article.jpeg" width="180" height="380">|<img src="img/generate.jpeg" width="180" height="380">|
+
+|Manual Predict|Image Predict|Result|
+|--|--|--|
+|<img src="img/manual%20predict.jpeg" width="180" height="380">|<img src="img/image%20predict.jpeg" width="180" height="380">|<img src="img/result.jpeg" width="180" height="380">|
+
+|Community|Add Post|Detail Post|
+|--|--|--|
+|<img src="img/community.jpeg" width="180" height="380">|<img src="img/add%20post.jpeg" width="180" height="380">|<img src="img/detail%20post.jpeg" width="180" height="380">|
+
+|Profile|Language|Logout|
+|--|--|--|
+|<img src="img/profile.jpeg" width="180" height="380">|<img src="img/language.jpeg" width="180" height="380">|<img src="img/logout.jpeg" width="180" height="380">|
+
+|Edit Profile|Edit Name|Edit Photo|
+|--|--|--|
+|<img src="img/edit%20profile.jpeg" width="180" height="380">|<img src="img/edit%20name.png" width="180" height="380">|<img src="img/edit%20photo.png" width="180" height="380">|
+
+|History|Detail History|
+|--|--|
+|<img src="img/history.jpeg" width="180" height="380">|<img src="img/detail%20hitory.jpeg" width="180" height="380">|
