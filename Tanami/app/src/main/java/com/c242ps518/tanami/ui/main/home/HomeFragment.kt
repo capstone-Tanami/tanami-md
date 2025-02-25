@@ -154,7 +154,6 @@ class HomeFragment : Fragment() {
                 binding.recyclerViewHistory.visibility = View.GONE
             }
             adapter.submitList(it)
-            binding.recyclerViewHistory.setHasFixedSize(true)
         }
 
         swipeRefreshLayout = binding.swipeRefreshLayout
